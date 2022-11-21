@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class SpringbootHelloworldApplication {
-	@RequestMapping(value="/")
+	@RequestMapping(value="/rajesh")
 	public String index() {
-		return "<h1>Hello World guru.....</h1>";
+		return "<h1>Helloooo World guru.....</h1>";
 	}
 
 	public static void main(String[] args) {
