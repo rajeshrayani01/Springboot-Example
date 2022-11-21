@@ -55,6 +55,7 @@
         </distributionManagement>
 
 	<build>
+		<finalName>springboot-helloworld</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
