@@ -16,7 +16,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		<sonar.host.url>http://13.126.177.178:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.11.166:9000/</sonar.host.url>
           <sonar.login>squ_edbb0aeb16163973950a4c48154a44214fcd5609</sonar.login>
 	</properties>
 	<dependencies>
@@ -45,12 +45,12 @@
         <repository>
             <id>nexus</id>
             <name>Rajesh-release</name>
-            <url>http://3.110.108.28:8088/rajeshrayani/repository/rajesh-release/</url>
+            <url>http://172.31.8.14:8088/rajeshrayani/repository/rajesh-release/</url>
             </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Rajesh-snapshot</name>
-            <url>http://3.110.108.28:8088/rajeshrayani/repository/rajesh-snapshot/</url>
+            <url>http://172.31.8.14:8088/rajeshrayani/repository/rajesh-snapshot/</url>
             </snapshotRepository>
         </distributionManagement>
 
